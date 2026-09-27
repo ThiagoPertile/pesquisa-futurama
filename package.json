@@ -1,0 +1,28 @@
+{
+  "name": "pesquisa-futurama",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss:css",
+    "build:css": "sass scss/style.scss css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoPertile/pesquisa-futurama.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoPertile/pesquisa-futurama/issues"
+  },
+  "homepage": "https://github.com/ThiagoPertile/pesquisa-futurama#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "sass": "^1.105.0"
+  }
+}
