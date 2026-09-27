@@ -32,20 +32,19 @@ select {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-.personal-info legend {
-  font-weight: bold;
-  margin-bottom: 8px;
-  margin: 0 auto;
-}
-.personal-info label {
-  font-weight: bold;
-  width: 80%;
-  align-self: flex-start;
-}
-.personal-info input {
-  margin-bottom: 8px;
-  width: 80%;
-}
 
-/*# sourceMappingURL=style.css.map */
+  legend {
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin: 0 auto;
+  }
+  label {
+    font-weight: bold;
+    width: 80%;
+    align-self: flex-start;
+  }
+  input{
+    margin-bottom: 8px;
+    width: 80%;
+  }
+}
